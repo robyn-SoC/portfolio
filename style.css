@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #FFF;
+}
+
+ul{
+    font-size: 10pt;
+    font-weight: normal;
+    color: #FFF;
+    list-style-type: none;
+}
+
+h1{
+    font-size: 40pt;
+    font-weight: normal;
+    color: #FFF;
+}
+
+h2{
+    font-size: 20pt;
+    font-weight: normal;
+    color: #FFF;
+}
+
+h3{
+    font-weight: normal;
+    color: #FFF;
+}
+
+h4{
+    font-size: 10pt;
+    font-weight: normal;
+    color: #FFF;
+}
+
+/* Header items start here */
+
+#logo{
+    background-image: url('images/headshot_new.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 35px;
+    border: 1px #BBB solid;
+    height: 70px;
+    width: 70px;
+    margin: 5px 5px 5px 15px;
+    float: left;
+}
+
+#title{
+    text-align: center;
+    float: left;
+    margin: 5px 0px 5px 20px;
+    height: 70px;
+}
+
+.name{
+    font-size: 20pt;
+}
+
+#firstname{
+    color: rgb(65, 70, 130);
+}
+
+#surname{
+    color: rgb(107, 108, 117);
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    box-shadow: 0 3px 21px 3px #333;
+    z-index: 999;
+    line-height: 65px;
+}
+
+#navbar ul{
+    display: block;
+    list-style-type: none;
+    float: right;
+    height: 70px;
+    margin: 5px 50px 5px 0;
+}
+
+#navbar li{
+    float: left;
+    font-size: 20pt;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    word-spacing: -3px;
+    border-width: 0px 3px 0px 0px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+            to bottom,
+            rgba(128, 128, 128, 0) 5%, rgba(128, 128, 128, 0.2) 40%, rgba(128, 128, 128, 0.3) 50%, rgba(128, 128, 128, 0.2) 60%,  rgba(128, 128, 128, 0) 95%
+        ) 1 100%; 
+}
+
+#navbar li:last-of-type{
+    border-width: 0px;
+    padding-right: 0px;
+}
+
+#navbar a{
+    color: rgb(107, 108, 117);
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: rgb(65, 70, 130);
+}
+
+#navbar a.active{
+    color: rgb(65, 70, 130);
+}
+
+/* Homepage styles */
+
+#homepage{
+    background: url('images/hongkong.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    overflow-y: hidden;
+}
+
+#contentbox{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(65, 70, 130, 0.6);
+    margin-top: 80px;
+}
+
+#textbox1{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+/* Job History styles */
+
+#jobcontainer{
+    padding: 90px 60px 10px 60px;
+    height: 100%;
+    width: 100%;
+    border: #333 1px solid;
+}
+
+.jobbox{
+    height: 600px;
+    width: 19.2%;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(65, 70, 130);
+    text-align: center;
+}
+
+.jobbox h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.jobbox p{
+    padding: 10px 5px 0px 5px;
+}
+
+#ajr{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 30px;
+}
+
+#ai{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 30px 0px;
+}
+
+#tsl{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+    padding: 0px 7px;
+}
+
+#threeccc{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 40px 30px;
+}
+
+#premmot{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+    padding: 55px 5px;
+}
+
+
+/* Project styles */
+
+#procontainer{
+    padding: 90px 60px 10px 60px;
+    height: 100%;
+    width: 100%;
+    border: #333 1px solid;
+}
+
+.probox{
+    height: 500px;
+    width: 24.2%;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(65, 70, 130);
+    border: 1px solid rgb(65, 70, 130);
+    text-align: center;
+}
+
+.probox h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.probox p{
+    padding: 10px 5px 0px 5px;
+}
+
+#ai{
+    height: 43%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 30px 0px;
+}
+
+#apna {
+    height: 20%;
+}
+
+
+/* Photography Page Styles */
+
+#photography{
+    background-color: #FFF;
+    overflow-y: hidden; 
+}
+
+#gifbox{
+    height: 100%;
+    padding-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(65, 70, 130);
+}
+
+#portfolio{
+    float: left;
+    height: 100%;
+}
+
+#photoblurb{
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 40px 10px 40px 10px;
+}
+
+#photoblurb li{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
